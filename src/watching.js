@@ -2,10 +2,14 @@ import React from 'react';
 import './index.css';
 import Question from './question.js';
 import Answer from './answer.js';
+import Quote from './quote.js';
+import Appbar from './appbar.js'
+
 
 export default function ArticleWatching() {
   return (
     <>
+    <Appbar />
     <div className="huge">
     Watching the mind
     </div>
@@ -24,8 +28,9 @@ export default function ArticleWatching() {
     What ever you experience it is also your mind's manipulation.
 
     Thoughts are the feed for your mind. With out your presence, generation
-    of thoughts is not possible for the Mind. So Mind always need you and your
-    presence for its LIFE. With out you it can't survive.
+    of thoughts is not possible for the Mind. 
+    <Quote>So Mind always need you and your
+    presence for its LIFE. With out you it can't survive.</Quote>
 
     So it initially throw some pleasant situations then some times unpleasant
     situations so that you start think about those moments. If you are still

@@ -2,11 +2,14 @@ import React from 'react';
 import './index.css';
 import Question from './question.js';
 import Answer from './answer.js';
+import Quote from './quote.js';
+import Appbar from './appbar.js'
 
 export default function ArticleUpadesam() {
   return (
     <>
-    <div className="huge">
+  <Appbar />
+   <div className="huge">
     Upadesam
     </div>
     <div className="body">
@@ -22,16 +25,21 @@ export default function ArticleUpadesam() {
       The world is supported by the snake, the snake is the ring on Parvati's finger.
       And to whom does Parvati give it to? To Sivan. And Sivan is for his bhaktas.
       When Siva told us this story the first time, we didn't
-     understand his words. He repeated it, but we still understand.
+     understand his words. He repeated it, but we still we didn't understand.
      Out of his compassion, he narrated it once more!
       </div>
-      <div>
       After some time, while we were sweeping the area in front of Siva's hut, he said
-      kannkal erandum (both eyes) must keep looking at Him only, maayayai paakakudathe (not look at maya),
+      kannkal erandum (both eyes) must keep looking at Him only, 
+      <div>
+      <Quote> maayayai paakakudathe (not look at maya),</Quote>
+      </div> 
+  
       eppadi theriyumaa (do you know how?), and he closed his eyes, lifted his right hand ..."
-      </div>
-    </Answer>
-    </div>
-    </>
+
+
+     </Answer>
+     </div>
+     </>
+
   );
 }

@@ -2,10 +2,14 @@ import React from 'react';
 import './index.css';
 import Question from './question.js';
 import Answer from './answer.js';
+import Quote from './quote.js';
+import Appbar from './appbar.js'
+
 
 export default function ArticleUyir() {
   return (
     <>
+    <Appbar />
     <div className="huge">
     On Uyir
     </div>
@@ -28,7 +32,7 @@ export default function ArticleUyir() {
 
     Let's understand using the example of consecration.
 
-    Consecration is a simple process of combining arive and unarve to generate life/uyir. For example, if we look at the Linga Bhairavi temple, Sadhguru would have used a combination of mercury (pith = rasa = arive) and suplhur (gandham = unarve). When these are used in combination, uyir sakti is automatically generated. In the triangle of arive, unarve and uyir, when two of them are present, the third manifests automatically. maan and pulan also other words which are used for arive - Tiruvalluvar says "nun maan nuzhai pulan". So in our body, wherever we already have cells, if we bring our refined unarve to it, their aliveness will increase and they will transform from simple uyir cells, to unarve cells and to arive cells. This basis is commonly used to develop many practice methodologies. Gurus instruct their disciples to keep their unarve along various centers in the spinal cord where its easy to keep awareness. This leads to the increase of uyir sakti at these places and leads the disciple to higher states.
+    Consecration is a simple process of combining arive and unarve to generate life/uyir. For example, if we look at the Linga Bhairavi temple, Sadhguru would have used a combination of mercury (pith = rasa = arive) and suplhur (gandham = unarve). When these are used in combination, uyir sakti is automatically generated. <Quote>In the triangle of arive, unarve and uyir, when two of them are present, the third manifests automatically.</Quote> maan and pulan also other words which are used for arive - Tiruvalluvar says "nun maan nuzhai pulan". So in our body, wherever we already have cells, if we bring our refined unarve to it, their aliveness will increase and they will transform from simple uyir cells, to unarve cells and to arive cells. This basis is commonly used to develop many practice methodologies. Gurus instruct their disciples to keep their unarve along various centers in the spinal cord where its easy to keep awareness. This leads to the increase of uyir sakti at these places and leads the disciple to higher states.
 
     </Answer>
 
@@ -47,7 +51,8 @@ export default function ArticleUyir() {
 
     The fourth kind of content is arive cell. These are neural cells. These cells can transmit information/electricic impulse from one end to the other. These are found in the brain, spinal cord and at various senses. For example, when our retinal cells perceive an object, they undergo a series of chemical and electrical changes. These changes trigger the optical nerve and transmit the information to the brain where the input is interpreted.
 
-    So, objectively, what is uyir is quite simple. It is the sum total of all living cells in the body.
+    
+    <Quote>So, objectively,what is uyir is quite simple. It is the sum total of all living cells in the body.</Quote> 
 
     But, subjectively, what is uyir depends on our perception also. What is in our experience, we can claim as being part of us. So, all the living cells which are in our experience/awareness can be taken as our uyir content now. If we are not aware of certain parts of the body (take any inner organ), we cannot be sure whether they even exist and where they are without referring to a biology textbook.
 
@@ -76,7 +81,7 @@ export default function ArticleUyir() {
     <Answer>
     We can say that the goal is to fully become a form of arive, where our cells can fully transmit light all over the body. Of course, its great if we can accomplish this in one lifetime. But in this lifetime, we can keep a much simpler baseline goal of attaining mukti. The states beyond that cannot be acheived through practice. Only through grace they will be revealed. For mukti, we should be able to close our eyes at anytime and see the light within the head.Then, at the time of death we will have the choice of whether we want another birth or we want to put an end to the cycle.
 
-    Siddhas say that what is in andam is in pindam and vice versa. What does this mean? There are two meanings. In one meaning, andam is the universe and pindam is our body. In this meaning, the various parts of the body are said to correspond with different astronomical objects. For example, our right side is connected to the sun and the left side is connected to the moon. In the other meaning, both andam and pindam are in the body itself. The body is divided into two parts - above and below the neck. Andam is above the neck and pindam is below the neck. From modern neuroscience also, we know that parts in the brain are responsible for different parts in the body. So, whatever is in pindam can be controlled from andam. Similarly, there are nerve points in the hands, legs etc. which can be used to activate brain centers. So what is in andam can be controlled from pindam. All Suddha Sanmarga experience happens in andam.
+    Siddhas say that what is in andam is in pindam and vice versa. What does this mean? There are two meanings. In one meaning, andam is the universe and pindam is our body.<Quote> In this meaning, the various parts of the body are said to correspond with different astronomical objects.</Quote> For example, our right side is connected to the sun and the left side is connected to the moon. In the other meaning, both andam and pindam are in the body itself. The body is divided into two parts - above and below the neck. Andam is above the neck and pindam is below the neck. From modern neuroscience also, we know that parts in the brain are responsible for different parts in the body. So, whatever is in pindam can be controlled from andam. Similarly, there are nerve points in the hands, legs etc. which can be used to activate brain centers. So what is in andam can be controlled from pindam. All Suddha Sanmarga experience happens in andam.
 
     Who is a chiranjeevi? We can split this word as chiran + jeevi. Chiranjeevi is someone who has kept his jeeva shakti in the siras (head). This it the key to deathless life.
 

@@ -14,8 +14,14 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import MUILink from '@material-ui/core/Link';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import SvgIcon from '@material-ui/core/SvgIcon';
+
+
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import './index.css';
+
 
 import ArticleAadi from './aadi.js';
 import img1 from "./images/img1.jpg";
@@ -68,7 +74,14 @@ const useStyles = makeStyles((theme) => ({
   buttonBase: {
    display: "block",
    textAlign: "initial"
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+  title: {
+    flexGrow: 1,
   }
+
 }));
 
 const testContent = [
@@ -102,7 +115,17 @@ const testContent = [
     img: img5,
     path:"/driving"
   }
+ 
 ];
+
+function HomeIcon(props) {
+  return (
+    <SvgIcon {...props}>
+      <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+    </SvgIcon>
+  );
+}
+
 
 function App(){
   return(
@@ -123,10 +146,28 @@ function App(){
 }
 
 
+
+
+
 function HomePage({content}) {
   const classes = useStyles();
   return (
       <>
+
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6" className={classes.title}>
+            Siva Arul Veli
+          </Typography>
+          <HomeIcon  />
+        </Toolbar>
+      </AppBar>
+
+
+
       <div className="huge">
         Satsang Notes
       </div>
@@ -168,3 +209,4 @@ ReactDOM.render(
     <App/>,
   </BrowserRouter>,
   document.querySelector('#root'));
+
