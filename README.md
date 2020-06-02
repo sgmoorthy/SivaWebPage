@@ -20,14 +20,6 @@ Then to deploy to firebase,
 
 and login with shethrada account.
 
-Then do, 
-
-### `firebase init`
-
-and select Hosting.
-
-Firebase asks for public directory, specify this as build. Configure as single page app - No. Overwrite - No.
-
 Test it out locally by running,
 
 ### `firebase serve`
@@ -39,7 +31,8 @@ To deploy,
 
 
 
-
+Provided with create react app. Not necessary for us.
+-----------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
