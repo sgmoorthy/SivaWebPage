@@ -1,3 +1,39 @@
+## Instructions to run and test locally
+
+Clone the project directory and run:
+
+### `npm install`
+
+Test it out locally by running,
+
+### `npm start`
+
+## Instructions to build and deploy
+
+First create an optimized build by running
+
+### `npm run-script build`
+
+Then to deploy to firebase, 
+
+### `firebase login`
+
+and login with shethrada account.
+
+Then do, 
+
+### `firebase init`
+
+and select Hosting.
+
+Test it out locally by running,
+
+### `npm start`
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
