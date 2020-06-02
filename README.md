@@ -26,9 +26,16 @@ Then do,
 
 and select Hosting.
 
+Firebase asks for public directory, specify this as build. Configure as single page app - No. Overwrite - No.
+
 Test it out locally by running,
 
-### `npm start`
+### `firebase serve`
+
+To deploy,
+
+### `firebase deploy --only hosting:sivaswamigal`
+
 
 
 
