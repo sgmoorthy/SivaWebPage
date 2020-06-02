@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
+
+
 .huge {
 	color: #62543f;
 	font-family: "Lato", "Source Sans Pro", sans-serif;
@@ -19,8 +23,47 @@
   width: 100%;
   max-width:650px;
   margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-.has-medium-font-size {
+	.has-medium-font-size {
 	    font-size: 16px;
 	}
+
+
+  
+	.blockquote {
+		border: 0;
+		font-size: 17px;
+		font-weight: bold;
+		font-family: 'Architects Daughter', cursive;
+		letter-spacing: none;
+		margin: 0.5em auto;
+		max-width: 540px;
+		position: relative;
+		text-align: left;
+		
+	  }
+	  
+	  .blockquote::before {
+		color: #fff200;
+		content: '“';
+		font-family: 'georgia';
+		font-size: 2em;
+		left: 1%;
+		pointer-events: none;
+		position: left;
+		top: -.75em;
+	  }
+	  
+	  .blockquote::after {
+		bottom: -.2em;
+		color: #fff200;
+		content: '”';
+		font-family: 'georgia';
+		font-size: 2em;
+		pointer-events: none;
+		position: right;
+		right: 1%;
+	  }
