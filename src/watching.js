@@ -9,7 +9,6 @@ import Appbar from './appbar.js'
 export default function ArticleWatching() {
   return (
     <>
-    <Appbar />
     <div className="huge">
     Watching the mind
     </div>
@@ -28,7 +27,7 @@ export default function ArticleWatching() {
     What ever you experience it is also your mind's manipulation.
 
     Thoughts are the feed for your mind. With out your presence, generation
-    of thoughts is not possible for the Mind. 
+    of thoughts is not possible for the Mind.
     <Quote>So Mind always need you and your
     presence for its LIFE. With out you it can't survive.</Quote>
 

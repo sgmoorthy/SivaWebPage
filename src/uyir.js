@@ -9,7 +9,6 @@ import Appbar from './appbar.js'
 export default function ArticleUyir() {
   return (
     <>
-    <Appbar />
     <div className="huge">
     On Uyir
     </div>
@@ -51,8 +50,8 @@ export default function ArticleUyir() {
 
     The fourth kind of content is arive cell. These are neural cells. These cells can transmit information/electricic impulse from one end to the other. These are found in the brain, spinal cord and at various senses. For example, when our retinal cells perceive an object, they undergo a series of chemical and electrical changes. These changes trigger the optical nerve and transmit the information to the brain where the input is interpreted.
 
-    
-    <Quote>So, objectively,what is uyir is quite simple. It is the sum total of all living cells in the body.</Quote> 
+
+    <Quote>So, objectively,what is uyir is quite simple. It is the sum total of all living cells in the body.</Quote>
 
     But, subjectively, what is uyir depends on our perception also. What is in our experience, we can claim as being part of us. So, all the living cells which are in our experience/awareness can be taken as our uyir content now. If we are not aware of certain parts of the body (take any inner organ), we cannot be sure whether they even exist and where they are without referring to a biology textbook.
 

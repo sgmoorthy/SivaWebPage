@@ -115,7 +115,7 @@ const testContent = [
     img: img5,
     path:"/driving"
   }
- 
+
 ];
 
 function HomeIcon(props) {
@@ -128,19 +128,35 @@ function HomeIcon(props) {
 
 
 function App(){
+  const classes = useStyles();
+
   return(
     <main>
-        <Switch>
-          <Route
-            exact path='/'
-            render={(props) => <HomePage {...props} content={testContent} />}
-          />
-          <Route path="/aadi" component={ArticleAadi} />
-          <Route path="/uyir" component={ArticleUyir} />
-          <Route path="/sivaupadesam" component={ArticleUpadesam} />
-          <Route path="/watching" component={ArticleWatching} />
-          <Route path="/driving" component={ArticleDriving} />
-        </Switch>
+
+    <AppBar position="static">
+      <Toolbar>
+        <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+          <MenuIcon />
+        </IconButton>
+        <Typography variant="h6" className={classes.title}>
+          Siva Arul Veli
+        </Typography>
+        <ButtonBase component={Link} to={'/'}>
+        <HomeIcon  />
+        </ButtonBase>
+      </Toolbar>
+    </AppBar>
+      <Switch>
+        <Route
+          exact path='/'
+          render={(props) => <HomePage {...props} content={testContent} />}
+        />
+        <Route path="/aadi" component={ArticleAadi} />
+        <Route path="/uyir" component={ArticleUyir} />
+        <Route path="/sivaupadesam" component={ArticleUpadesam} />
+        <Route path="/watching" component={ArticleWatching} />
+        <Route path="/driving" component={ArticleDriving} />
+      </Switch>
     </main>
   );
 }
@@ -153,21 +169,6 @@ function HomePage({content}) {
   const classes = useStyles();
   return (
       <>
-
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            Siva Arul Veli
-          </Typography>
-          <HomeIcon  />
-        </Toolbar>
-      </AppBar>
-
-
-
       <div className="huge">
         Satsang Notes
       </div>
@@ -209,4 +210,3 @@ ReactDOM.render(
     <App/>,
   </BrowserRouter>,
   document.querySelector('#root'));
-

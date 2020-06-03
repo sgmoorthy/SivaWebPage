@@ -8,7 +8,6 @@ import Appbar from './appbar.js'
 export default function ArticleUpadesam() {
   return (
     <>
-  <Appbar />
    <div className="huge">
     Upadesam
     </div>
@@ -29,11 +28,11 @@ export default function ArticleUpadesam() {
      Out of his compassion, he narrated it once more!
       </div>
       After some time, while we were sweeping the area in front of Siva's hut, he said
-      kannkal erandum (both eyes) must keep looking at Him only, 
+      kannkal erandum (both eyes) must keep looking at Him only,
       <div>
       <Quote> maayayai paakakudathe (not look at maya),</Quote>
-      </div> 
-  
+      </div>
+
       eppadi theriyumaa (do you know how?), and he closed his eyes, lifted his right hand ..."
 
 

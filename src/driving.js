@@ -10,7 +10,6 @@ import content_img from './images/content_image5.gif';
 export default function ArticleDriving() {
   return (
     <>
-    <Appbar />
     <div className="huge">
     Are you driving your car?
     </div>
